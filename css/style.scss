@@ -1,0 +1,173 @@
+@media screen and (min-height: 480px){
+    .section1 {
+        height: 100vh;
+
+    }
+}
+
+.section1 {
+    background-image: linear-gradient(#BAFFF1, white);
+
+    button {
+        a {
+            color: White;
+        }
+    }
+}
+.features{
+margin-top: 3em;
+}
+
+
+.section2 {
+    .card-deck {
+        h5 {
+            text-align: center;
+        }
+
+        // .card-body {
+        //     padding: 3em 0em 3em 0em;
+        // }
+    }
+
+    .card:hover {
+        background-color: #269E86;
+        transition: 0.5s;
+
+        .card-title,h2{
+            color: white;
+        }
+    }
+
+    .card {
+        h5 {
+            font-size: 2em;
+        }
+    }
+}
+
+.section3 {
+    table {
+        text-align: center;
+    }
+}
+
+.section4 {
+    text-align: center;
+}
+
+.container {
+    // margin-top:3em;
+    margin-bottom: 3em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+h1 {
+    font-size: 3rem;
+
+}
+
+.landing {
+    display: flex;
+    padding-top: 3em;
+}
+
+table {
+    width: 100%;
+}
+
+.mobiledownload {
+    display: none;
+}
+
+.buttons {
+    display: none;
+}
+
+// .icon {
+//     margin-top: 2em;
+//     height: 7em;
+//     object-fit: contain;
+//     fill: #269E86;
+
+// }
+
+.card-title {
+    color: #269E86;
+}
+
+@media screen and (max-width: 480px) {
+    .landing {
+        flex-direction: column;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    .mobiledownload {
+        display: block;
+    }
+
+    table {
+        display: none;
+    }
+
+    .badge {
+        padding: 0.5em;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .landing {
+        flex-direction: column;
+    }
+
+    .section1 {
+        text-align: center;
+
+        .left {
+            margin-bottom: 2em;
+        }
+    }
+
+    .buttons {
+        display: block;
+    }
+
+    .links {
+        display: none;
+    }
+
+}
+// svg{
+//     text-align: center;
+// }
+@font-face {
+    font-family: myFirstFont;
+    src: url(../assets/icons/fonts/raven.ttf);
+    font-family: 'Orbitron', sans-serif;
+    @import url('https://fonts.googleapis.com/css?family=Orbitron:400,900&display=swap');
+  }
+h2{
+    font-family: myFirstFont;
+    text-align: center;
+    font-size: 7em;
+    margin-top: 0.5em;
+    color:#269E86;
+    cursor: default;
+}
+h1{
+    margin: 0.5em 0;
+}
+.title{
+    font-family: 'Orbitron';
+    font-size:3em; 
+    margin:0.25em 0;
+}
